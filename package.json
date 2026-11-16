@@ -1,0 +1,17 @@
+{
+  "name": "cs2-inventory-counter",
+  "version": "1.0.0",
+  "description": "Counts CS2 skins and stickers including storage unit contents and exports CSV/JSON",
+  "main": "cs2-inventory.js",
+  "private": true,
+  "scripts": {
+    "start": "node cs2-inventory.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "globaloffensive": "^3.3.0",
+    "steam-user": "^5.3.0"
+  }
+}
